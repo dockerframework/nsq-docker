@@ -5,8 +5,8 @@
 
 cd `dirname $0`
 
-REPO=virtuald/nsq
-VERSION=0.3.8
+REPO=dockerframework/nsq-docker
+VERSION=1.1.0
 
 pushd base
 docker build -t $REPO:base-$VERSION .

@@ -1,4 +1,4 @@
-FROM virtuald/nsq:base-0.3.8
+FROM dockerframework/nsq-docker:base-1.1.0
 
 ADD /nsqadmin.sh /usr/bin/nsqadmin.sh
 
